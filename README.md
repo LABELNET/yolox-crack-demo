@@ -36,7 +36,7 @@
 
 ![](https://github.com/LABELNET/yolox-crack-demo/raw/main/asserts/demo3.png)
 
-s
+
 另外，可查看工件原图测试效果，见 [目标图](https://github.com/LABELNET/yolox-crack-demo/raw/main/asserts/0017_result.jpg) 和 [裂纹标记图](https://github.com/LABELNET/yolox-crack-demo/raw/main/asserts/0017_crack.jpg) 。
 
 ## 图片测试
