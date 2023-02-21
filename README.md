@@ -29,8 +29,8 @@
 
 |  样例   | 原图  | 目标 |裂纹|
 | ----  | ----  |----|----|
-| 测试样图  | ![](asserts/test.jpg) |![](asserts/test_result.jpg)|![](asserts/test_crack.jpg)|
-| 工件样图  | ![](asserts/0017.jpg) |![](asserts/0017_result.jpg)|![](asserts/0017_crack.jpg)|
+| 测试样图  | ![](https://github.com/LABELNET/yolox-crack-demo/raw/main/asserts/test.jpg) |![](https://github.com/LABELNET/yolox-crack-demo/raw/main/asserts/test_result.jpg)|![](https://github.com/LABELNET/yolox-crack-demo/raw/main/asserts/test_crack.jpg)|
+| 工件样图  | ![](https://github.com/LABELNET/yolox-crack-demo/raw/main/asserts/0017.jpg) |![](https://github.com/LABELNET/yolox-crack-demo/raw/main/asserts/0017_result.jpg)|![](https://github.com/LABELNET/yolox-crack-demo/raw/main/asserts/0017_crack.jpg)|
 
 ## 图片测试
 
@@ -45,7 +45,7 @@ python demo.py image -f crack_exp_yolox_s.py -c models/best_ckpt.pth --path asse
 
 **方式二**
 
-见 `predict.py` 文件，修改里面相关参数，进行推理运行即可
+见 `predict.py` 文件，修改里面相关参数，进行推理运行即可，现有配置支持 `CPU` ，可咨询修改为 `GPU`
 
 ```
 python predict.py
