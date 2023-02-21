@@ -2,6 +2,8 @@
 
 识别图像上的裂纹
 
+
+
 **工程说明**
 
 ```
@@ -26,11 +28,17 @@
 
 ## 示例图
 
+**测试样图**
 
-|  样例   | 原图  | 目标 |裂纹|
-| ----  | ----  |----|----|
-| 测试样图  | ![](https://github.com/LABELNET/yolox-crack-demo/raw/main/asserts/test.jpg) |![](https://github.com/LABELNET/yolox-crack-demo/raw/main/asserts/test_result.jpg)|![](https://github.com/LABELNET/yolox-crack-demo/raw/main/asserts/test_crack.jpg)|
-| 工件样图  | ![](https://github.com/LABELNET/yolox-crack-demo/raw/main/asserts/0017.jpg) |![](https://github.com/LABELNET/yolox-crack-demo/raw/main/asserts/0017_result.jpg)|![](https://github.com/LABELNET/yolox-crack-demo/raw/main/asserts/0017_crack.jpg)|
+![](https://github.com/LABELNET/yolox-crack-demo/raw/main/asserts/demo1.png)
+
+**工件样图**
+
+![](https://github.com/LABELNET/yolox-crack-demo/raw/main/asserts/demo3.png)
+
+**工件原图**
+
+![](https://github.com/LABELNET/yolox-crack-demo/raw/main/asserts/demo2.png)
 
 ## 图片测试
 
