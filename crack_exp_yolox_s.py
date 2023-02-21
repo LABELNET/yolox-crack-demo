@@ -18,9 +18,9 @@ class Exp(MyExp):
         # 2. coco数据集 默认值，不变
         self.train_ann = "instances_train2017.json"
         self.val_ann = "instances_val2017.json"
-        # 3. 标签种类数 3
-        self.num_classes = 3
+        # 3. 标签种类数 1
+        self.num_classes = 1
         # 4. 训练世代数
-        self.max_epoch = 50
+        self.max_epoch = 30
         self.data_num_workers = 4
         self.eval_interval = 1
