@@ -53,7 +53,7 @@ python demo.py image -f crack_exp_yolox_s.py -c models/best_ckpt.pth --path asse
 
 **方式二**
 
-见 `predict.py` 文件，修改里面相关参数，进行推理运行即可，现有配置支持 `CPU` ，可咨询修改为 `GPU`
+见 `predict.py` 文件，修改里面相关参数，进行推理运行即可，现有配置支持 `CPU` ，可自行修改为 `GPU`
 
 ```
 python predict.py
