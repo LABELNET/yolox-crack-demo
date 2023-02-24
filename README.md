@@ -1,10 +1,10 @@
 # yolox-crack-demo
 
-识别图像上的裂纹
+识别图像上的裂纹，并进行标记，实现效果图如图所示
 
+![裂纹标记图](https://github.com/LABELNET/yolox-crack-demo/raw/main/asserts/0017_crack.jpg)
 
-
-**工程说明**
+## 1、工程说明
 
 ```
 .
@@ -26,7 +26,7 @@
 └── train.py              # 模型训练
 ```
 
-## 示例图
+## 2、示例图
 
 **测试样图**
 
@@ -39,9 +39,9 @@
 
 另外，可查看工件原图测试效果，见 [目标图](https://github.com/LABELNET/yolox-crack-demo/raw/main/asserts/0017_result.jpg) 和 [裂纹标记图](https://github.com/LABELNET/yolox-crack-demo/raw/main/asserts/0017_crack.jpg) 。
 
-## 图片测试
+## 3、图片测试
 
-安装 YoloX 环境后，可使用 CPU 进行测试，测试模型，请[下载模型](https://drive.google.com/file/d/1I4JDTDgiU_ZnSNxH8z9M6pRtC_4cA3Af/view?usp=sharing)，若要提高适应度，可根据 `crack.ipynb` 进行说明重新进行模型训练。
+首先，安装 YoloX 环境后，可使用 CPU 进行测试，测试模型，请[下载模型](https://drive.google.com/file/d/1I4JDTDgiU_ZnSNxH8z9M6pRtC_4cA3Af/view?usp=sharing)。然后，若要提高适应度，可根据 `crack.ipynb` 进行说明重新进行模型训练。
 
 
 **方式一**
@@ -58,7 +58,18 @@ python demo.py image -f crack_exp_yolox_s.py -c models/best_ckpt.pth --path asse
 python predict.py
 ```
 
-## 注意
+## 4、注意
 
 YOLOX 安装 0.3.0 分支版本，不要使用仓库最新代码，可能存在未知无法解决的错误；
+
+环境安装
+
+```
+git clone https://github.com/Megvii-BaseDetection/YOLOX.git
+cd YOLOX
+# 切换到 0.3.0 版本
+git checkout -b 0.3.0 0.3.0
+pip install -U pip && pip install -r requirements.txt
+pip install -v -e . 
+```
 
